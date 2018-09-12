@@ -1,0 +1,55 @@
+
+navbar {
+    list-style-type: none;
+    
+}
+
+.content {
+    text-align: center;
+    border-radius: 30px;
+    background: #3131312f
+
+    
+}
+
+.content h1 {
+    font-size: 30px;
+    font-weight: bold; 
+    margin-top: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-family: 'Boogaloo', cursive;
+
+}
+.col {
+    float: left;
+    padding: 10px;
+}
+
+.col.content {
+    width: 60%;
+    margin-top: 5%;
+}
+
+.col.left, .col.right {
+    width: 20%
+}
+
+
+
+body { 
+    background-image: url('../images/hypnotize.png');
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    height:30px;   /* Height of the footer */
+    background: #00000063
+}
+
+footer > p {
+    text-align: center;
+    padding-top: 10px;
+}
